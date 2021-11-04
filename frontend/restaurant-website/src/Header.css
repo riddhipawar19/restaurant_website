@@ -1,0 +1,64 @@
+.header__menu > button{
+    height: 40px;
+    font-size: 18px;
+    cursor: pointer;
+    background-color: blue;
+    color: white;
+    border-radius: 7px;
+    font-weight: 550;
+}
+.header__container{
+    display: flex;
+}
+
+.header__container > h3{
+    background-color: white;
+    margin-top: 4%;
+    padding: 15px;
+    margin: 50px;
+    border-radius: 6px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.header--active{
+    border-bottom: 1px solid red;
+}
+.header__menu{
+    background-color: white;
+    display: flex;
+    width: 50%;
+    text-align: center;
+    justify-content: space-between;
+    padding: 15px;
+    margin: 50px;
+    margin-left: 20%;
+    border-radius: 6px;
+}
+
+.header__menu > p{
+    cursor: pointer;
+    font-size: 22px;
+    font-weight: 700;
+}
+ 
+.header__menu__bf:hover{
+    border-bottom: 5px solid rgb(129, 35, 218);
+}
+
+.header__menu__all:hover{
+    border-bottom: 5px solid red;
+}
+
+.header__menu__dinner:hover{
+    border-bottom: 5px solid rgb(29, 204, 29);
+}
+
+.header__menu__desserts:hover{
+    border-bottom: 5px solid rgb(13, 160, 165);
+}
+
+.header__menu__lunch:hover{
+    border-bottom: 5px solid rgb(209, 30, 135);
+}
+
